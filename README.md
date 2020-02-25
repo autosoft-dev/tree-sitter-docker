@@ -5,7 +5,7 @@ A docker image with all the necessary libaries you need to build tree-sitter .so
 ### Pre-text
 
 We at [CodistAI](https://codist-ai.com/) use [tree-sitter](http://tree-sitter.github.io/tree-sitter/) a lot. 
-Now, it depends on c-lang to be able to function properly. When one of our team-mate used Ubuntu, they found it
+Now, it depends on [clang](https://llvm.org/) to be able to function properly. When one of our team-mate used Ubuntu, they found it
 hard to compile some of the tree-sitter libaries (Following the instructions [here](https://github.com/tree-sitter/py-tree-sitter)) So, this little Dockerfile will let you install all the needed dependencies and then bring you right 
 inside a iPython prompt where you can run the example code and build the libraries. 
 
