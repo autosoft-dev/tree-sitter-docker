@@ -22,7 +22,8 @@ python3-pip \
 build-essential \
 libssl-dev \
 libffi-dev \
-python3-dev
+python3-dev \
+git
 
 RUN pip3 install tree_sitter ipython
 
